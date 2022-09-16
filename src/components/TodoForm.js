@@ -29,7 +29,7 @@ function TodoForm(props) {
         <>
           <input
           
-            placeholder='Update your item'
+            placeholder='Atualizar tarefa'
             value={input}
             onChange={handleChange}
             name='text'
@@ -43,7 +43,7 @@ function TodoForm(props) {
       ) : (
         <>
           <input
-            placeholder='Add a todo'
+            placeholder='Adicionar tarefa'
             value={input}
             onChange={handleChange}
             name='text'
